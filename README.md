@@ -13,7 +13,7 @@
 ## Description:
 This application is a simple but efficient text editor, where you can write down all your notes! 
 
-![Alt text](image.png)
+![screenshot of application](image.png)
 
 ## Installation:
 
@@ -24,9 +24,9 @@ To install this application and run it on your local host, you will need to:
 - Ensure you have a code editor, such as VSCode.
 
 ## Usage:
-If you are just using this application on Heroku, all you need to do is start typing into the text field - it will save your notes for you automatically. If you'd like to install this application onto your desktop, you just need to click the install button:
+If you are just using this application on Heroku, you can start writing your notes straight into the text field. **To ensure your notes are saved, click on another area of the page before closing the page/refreshing - this will end their input phase and save them.** If you'd like to install this application onto your desktop, you just need to click the install button:
 
-![Alt text](image-2.png)
+![screenshot of install button](image-2.png)
 
 **If you are installing this application to run on your local host, you'll need to follow these instructions**:
 
@@ -36,7 +36,7 @@ After cloning this code, you will need to navigate to the folder in your chosen 
 
 After this, a port will open (PORT: 8080), and you'll be able to use the application by navigating to http://localhost:8080/ in your browser. 
 
-Once you've arrived at the application on a browser, write into the text area and it'll save what you've written - it's that simple! If you'd like to install this application onto your desktop, you just need to click the install button (image shown previously)
+Once you've arrived at the application on a browser, you're ready to write into the text area. **To ensure your notes are saved, click on another area of the page before closing the page/refreshing - this will end their input phase and save them.** If you'd like to install this application onto your desktop, you just need to click the install button (image shown previously)
 
 
 ## License:

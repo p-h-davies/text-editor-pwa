@@ -13,14 +13,17 @@ module.exports = () => {
       path: path.resolve(__dirname, 'dist'),
     },
     plugins: [
+      //Generating an HTML in dist
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Webpack Plugin',
       }),
+      //service workers
       new InjectManifest({
         swSrc: './src-sw.js',
         swDest: 'src-sw.js',
       }),
+      //Manifest details
       new WebpackPwaManifest({
         name: 'J.A.T.E',
         short_name: 'JATE',
@@ -42,6 +45,7 @@ module.exports = () => {
     ],
 
     module: {
+      //CSS & Image Loaders
       rules: [
         {
           test: /\.css$/i,
@@ -51,6 +55,7 @@ module.exports = () => {
           test: /\.(png|svg|jpg|jpeg|gif)$/i,
           type: 'asset/resource',
         },
+        //Browser compatibility - babel
         {
           test: /\.m?js$/,
           exclude: /(node_modules|bower_components)/,

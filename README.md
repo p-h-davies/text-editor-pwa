@@ -1,5 +1,4 @@
-# Text Editor Starter Code
-# Social-Network-API ![Static Badge](https://img.shields.io/badge/License:-No_License-green:badgeContent)
+# Text Editor PWA ![Static Badge](https://img.shields.io/badge/License:-No_License-green:badgeContent)
 
 # Table of Contents
 - [Description](#description)
@@ -44,7 +43,7 @@ The license for this project is: No_License.
 This project has not been listed under a license.
 
 ## Contribution:
-N/A
+Starter code provided by Xandromus: https://github.com/coding-boot-camp/cautious-meme. 
 
 ## Test:
 N/A

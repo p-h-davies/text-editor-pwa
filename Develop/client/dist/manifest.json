@@ -3,8 +3,7 @@
     {
       "src": "/assets/icons/icon_512x512.png",
       "sizes": "512x512",
-      "type": "image/png",
-      "purpose": "any maskable"
+      "type": "image/png"
     },
     {
       "src": "/assets/icons/icon_384x384.png",
